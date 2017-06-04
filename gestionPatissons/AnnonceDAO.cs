@@ -106,7 +106,47 @@ namespace gestionPatissons
             dr.Close();
             return (lesAnnonces);
         }
-        
+
+
+        public string countActive() //Liste toutes les annonces
+        {
+             
+            MySqlCommand Commande = new MySqlCommand("SELECT count(*) FROM annonce WHERE validiteAnnonce=1 ;", this.c);
+
+            MySqlDataReader dr = Commande.ExecuteReader();
+
+            if (dr.Read())
+            {
+                string totalAnnoncesAcitves = dr[0].ToString();
+                dr.Close();
+                return (totalAnnoncesAcitves);
+            }
+            else
+            {
+                dr.Close();
+                return (null);
+            }
+        }
+
+        public string countNoActive() //Liste toutes les annonces
+        {
+
+            MySqlCommand Commande = new MySqlCommand("SELECT count(*) FROM annonce WHERE validiteAnnonce=0 ;", this.c);
+
+            MySqlDataReader dr = Commande.ExecuteReader();
+
+            if (dr.Read())
+            {
+                string totalAnnoncesAcitves = dr[0].ToString();
+                dr.Close();
+                return (totalAnnoncesAcitves);
+            }
+            else
+            {
+                dr.Close();
+                return (null);
+            }
+        }
 
 
 

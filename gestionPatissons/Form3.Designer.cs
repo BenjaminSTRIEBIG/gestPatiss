@@ -250,7 +250,7 @@
             // 
             // cmbDificultRecette
             // 
-            this.cmbDificultRecette.ForeColor = System.Drawing.Color.YellowGreen;
+            this.cmbDificultRecette.ForeColor = System.Drawing.SystemColors.WindowText;
             this.cmbDificultRecette.FormattingEnabled = true;
             this.cmbDificultRecette.Location = new System.Drawing.Point(692, 423);
             this.cmbDificultRecette.Name = "cmbDificultRecette";

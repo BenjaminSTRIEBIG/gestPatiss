@@ -32,3 +32,5 @@ C:\Users\Benjamin\Documents\Visual Studio 2015\Projects\gestionPatissons (1)\ges
 C:\Users\Benjamin\Documents\Visual Studio 2015\Projects\gestionPatissons (1)\gestionPatissons\gestionPatissons\obj\Debug\gestionPatissons.csproj.GenerateResource.Cache
 C:\Users\Benjamin\Documents\Visual Studio 2015\Projects\gestionPatissons (1)\gestionPatissons\gestionPatissons\obj\Debug\fr\gestionPatissons.resources.dll
 C:\Users\Benjamin\Documents\Visual Studio 2015\Projects\gestionPatissons (1)\gestionPatissons\gestionPatissons\obj\Debug\gestionPatissons.Form3.resources
+C:\Users\Benjamin\Documents\Visual Studio 2015\Projects\gestionPatissons (1)\gestionPatissons\gestionPatissons\obj\Debug\gestionPatissons.Form4.resources
+C:\Users\Benjamin\Documents\Visual Studio 2015\Projects\gestionPatissons (1)\gestionPatissons\gestionPatissons\obj\Debug\gestionPatissons.Form5.resources
