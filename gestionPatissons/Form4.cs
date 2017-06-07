@@ -126,7 +126,7 @@ namespace gestionPatissons
             string photo3Recette = openFileDialog3.SafeFileName;
             string photo4Recette = openFileDialog4.SafeFileName;
             string couleur = colorlbl.Text;
-            if ((colorDialog1.Color.ToArgb() & 0x00FFFFFF).ToString("X6")!="#FFFFFF" & (colorDialog1.Color.ToArgb() & 0x00FFFFFF).ToString("X6") != null)
+            if ((colorDialog1.Color.ToArgb() & 0x00FFFFFF).ToString("X6")!="FFFFFF" & (colorDialog1.Color.ToArgb() & 0x00FFFFFF).ToString("X6") != "000000")
             {
                 couleur = "#" + (colorDialog1.Color.ToArgb() & 0x00FFFFFF).ToString("X6");
             }
