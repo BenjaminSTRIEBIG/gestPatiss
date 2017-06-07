@@ -24,8 +24,6 @@ namespace gestionPatissons
         private void Form2_Load(object sender, EventArgs e)
         {
 
-
-
             List<Annonce> allAnnonce = adao.readAll();
 
             foreach (Annonce uneAnnonce in allAnnonce)
@@ -45,7 +43,20 @@ namespace gestionPatissons
             pictureBox1.Load("https://patissons.fr/AnnoncesPhotos/"+a.getPhoto1());
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
 
+            pictureBox2.Load("https://patissons.fr/AnnoncesPhotos/" + a.getPhoto2());
+            pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
+
+            pictureBox3.Load("https://patissons.fr/AnnoncesPhotos/" + a.getPhoto3());
+            pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
+
+            pictureBox4.Load("https://patissons.fr/AnnoncesPhotos/" + a.getPhoto4());
+            pictureBox4.BackgroundImageLayout = ImageLayout.Stretch;
+
+            lblPrixValue.Text = a.getPrix();
+            lblQteLotValue.Text = a.getLot();
+            lblQteValue.Text = a.getQte();
         }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
